@@ -17,14 +17,14 @@ public class ArrayListDoubleLoop {
 		int i = 1;
 		while(i <= 5)
 		{
-			System.out.printf("¡ÃØ³Ò¡ÃÍ¡µÑÇàÅ¢ ¤ÃÑé§·Õè %d : ", i);
+			System.out.printf("Â¡ÃƒÃ˜Â³Ã’Â¡ÃƒÃÂ¡ÂµÃ‘Ã‡Ã Ã…Â¢ Â¤ÃƒÃ‘Ã©Â§Â·Ã•Ã¨ %d : ", i);
 			list.add(scan.nextDouble());
 			i++;
 		}
 		scan.close();
 		
 		Double sum = list.stream().mapToDouble(Double::doubleValue).sum();
-		System.out.printf("\r\n¼ÅÃÇÁ·Ñé§ËÁ´ ¤×Í  %.2f", sum);		
+			
 	}
 }
  
