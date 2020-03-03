@@ -12,11 +12,12 @@ public class CircleAreaCalculator {
          
         Scanner scan = new Scanner(System.in);
          
-        System.out.print("��سҡ�͡����Ţ�ͧ����� : ");
+        System.out.print("¡ÃØ³Ò¡ÃÍ¡µÑÇàÅ¢¢Í§ÃÑÈÁÕ : ");
         double r = scan.nextDouble();
          
         scan.close();
          
-        System.out.printf("\r\n��鹷��ͧǧ��� ��� %.2f", Math.PI * (r * r));
+        System.out.printf("\r\n¾×é¹·Õè¢Í§Ç§¡ÅÁ ¤×Í %.2f", Math.PI * (r * r));
+     "Thanaporn";
     }
 }
