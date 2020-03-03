@@ -18,6 +18,6 @@ public class CircleAreaCalculator {
         scan.close();
          
         System.out.printf("\r\n¾×é¹·Õè¢Í§Ç§¡ÅÁ ¤×Í %.2f", Math.PI * (r * r));
-     "Thanaporn";
+     "Thanaporn+ส้มแป้น ฟักทอง แตงโม แตงไทย มะพร้าว ส้มโอ ";
     }
 }
